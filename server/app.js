@@ -1,5 +1,4 @@
 import { getNotes, getNote, createNote, deleteNote } from '../db/database.js';
-import * as functions from 'firebase-functions';
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
